@@ -1,6 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --background: #ffffff;
@@ -17,5 +19,35 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+ 
 }
+.welcome{
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  }
+  .welcome p{
+    text-align: justify;
+  }
+  .welcome h1{
+    font-size: 60px;
+    font-weight: bolder;
+  }
+.product-cards{
+  display: flex;
+  flex-wrap: wrap;
+width: 80%;
+margin-left: 10%;
+}
+.send_message{
+  background-color: rgb(7, 147, 218);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+
